@@ -1,0 +1,18 @@
+{
+  "name": "works-on-my-machine",
+  "version": "1.0.0",
+  "description": "Puts a 'Works on my Machine!' sticker on any page",
+  "main": "manifest.json",
+  "author": "Rafael Soares <rafasoaresms@gmail.com>",
+  "license": "CC-BY-SA 4.0",
+  "private": false,
+  "repository": "github:rafasoares/works-on-my-machine-badge",
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": ">=2.13.0",
+    "eslint-plugin-node": ">=7.0.0",
+    "eslint-plugin-promise": ">=4.0.0",
+    "eslint-plugin-standard": ">=4.0.0"
+  }
+}
