@@ -1,0 +1,26 @@
+name: Node CI
+
+on: 
+  push:
+    tags: [v*]
+
+env:
+  version: ${{ echo $GITHUB_REF | sed -E 's/.*v(.*)$/\1/' }}
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Setup Node.js
+      uses: actions/setup-node@v1
+      with:
+        node-version: 10.x
+    - name: yarn install
+      run: |
+        yarn install 
+    - name: Package
+      run: |
+        git archive -o womm-$version.zip HEAD
