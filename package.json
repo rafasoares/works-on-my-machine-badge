@@ -1,6 +1,6 @@
 {
   "name": "works-on-my-machine",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Puts a 'Works on my Machine!' sticker on any page",
   "main": "manifest.json",
   "author": "Rafael Soares <rafasoaresms@gmail.com>",
