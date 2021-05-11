@@ -4,7 +4,7 @@
   "description": "Puts a 'Works on my Machine!' sticker on any page",
   "main": "manifest.json",
   "author": "Rafael Soares <rafasoaresms@gmail.com>",
-  "license": "CC-BY-SA 4.0",
+  "license": "CC-BY-SA-4.0",
   "private": false,
   "repository": "github:rafasoares/works-on-my-machine-badge",
   "devDependencies": {
