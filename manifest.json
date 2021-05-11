@@ -1,6 +1,6 @@
 {
   "name": "Works on my Machine! Badge Extension",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This simple Chrome extension toggles a 'Works on my Machine!' badge on any web page.",
   "icons": {
     "16": "assets/images/icon16.png",
