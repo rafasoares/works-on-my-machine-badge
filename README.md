@@ -1,6 +1,6 @@
 # Works on my Machine! Badge Extension
 
-This simple Chrome extension toggles a "Works on my Machine!" badge on any web page.
+This simple browser extension toggles a "Works on my Machine!" badge on any web page.
 
 ## Credits
 
